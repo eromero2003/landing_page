@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  display: inline;
+  *display: inline; /* */
   text-align: center;
   padding: 0;
   margin: 0;
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  display: inline;
+  *display: inline;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -289,7 +289,7 @@ figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  display: inline;
+  *display: inline;
 }
 .fh5co-social li a {
   font-size: 22px;
@@ -298,7 +298,7 @@ figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  display: inline;
+  *display: inline;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
@@ -409,7 +409,7 @@ figure {
     display: -moz-inline-stack;
     display: inline-block;
     zoom: 1;
-    display: inline;
+   * display: inline;
   }
 }
 
